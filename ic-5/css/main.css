@@ -15,3 +15,15 @@ footer p {
 nav ul {
     font-size: 150%;
 }
+
+/* classes */
+.web {
+    font-style: italic;
+}
+
+/* id */
+#featured {
+    font-style: normal;
+}
+
+
