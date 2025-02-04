@@ -11,3 +11,7 @@ h1, h2, h3 {
 footer p {
     font-weight: bold;
 }
+
+nav ul {
+    font-size: 150%;
+}
