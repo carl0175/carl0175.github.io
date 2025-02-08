@@ -3,3 +3,7 @@ body {
     background-color: indianred;
     color: seashell;
 }
+
+body {
+    font-family: 'Sofia';font-size: 22px;
+}
