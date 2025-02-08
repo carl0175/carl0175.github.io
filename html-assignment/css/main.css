@@ -19,8 +19,8 @@ body {
 }
 
 .navbar button {
-    border: none;
-    color: rgb(105, 84, 0);
+    border: #000;
+    background-color: rgb(218, 209, 173);
     padding: 9px 20px;
     text-align: center;
     text-decoration: none;
@@ -44,5 +44,10 @@ body {
 
 .no-underline {
     text-decoration: none;
+    color: #000;
 }
 
+.navbar button:hover {
+    background-color: rgb(109, 158, 171);
+    transition-duration: 1s;
+}
