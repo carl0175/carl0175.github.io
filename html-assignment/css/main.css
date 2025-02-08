@@ -6,23 +6,22 @@ body {
 }
 
 .site-title {
-    background-color: darkorchid;
-    color: darkblue;
+    background-color: brown;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
 }
 
 .navbar {
-    display: flex;
-    padding: 10px;
-    background-color: coral;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding: 5px;
+    background-color: rgb(126, 0, 0);
+    font-family:cursive
 }
 
 .navbar button {
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: rgb(105, 84, 0);
+    padding: 9px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -33,4 +32,8 @@ body {
 
 #my-image {
     box-shadow: 0px 0px 2px 1px black;
+}
+
+.square-list {
+    list-style: square;
 }
