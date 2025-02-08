@@ -11,3 +11,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
 }
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    background-color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
