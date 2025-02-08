@@ -2,14 +2,10 @@
 body {
     background-color: indianred;
     color: seashell;
+    font-family: "Arial, Helvetica, sans-serif";font-size: 18px;
 }
 
-body {
-    font-family: "Arial, Helvetica, sans-serif";
-    font-size: 18px;
-}
-
-highlight {
+.highlight {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
 }
