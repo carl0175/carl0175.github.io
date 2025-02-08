@@ -35,5 +35,5 @@ body {
 }
 
 .square-list {
-    list-style: square;
+    list-style-type: square;
 }
