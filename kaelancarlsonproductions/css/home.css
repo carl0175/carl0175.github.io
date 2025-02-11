@@ -1,4 +1,24 @@
 /* this is a css comment */
-.body {
-    background-color: skyblue;
+body {
+    background-color: rgb(136, 194, 217);
+    color: black;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: azure;
+    transition: 1s;
+}
+
+.navbar button {
+    background-color: rgb(185, 185, 202);
+}
+
+.navbar button:hover {
+    background-color: rgb(102, 142, 102);
+    transition: 450ms;
 }
