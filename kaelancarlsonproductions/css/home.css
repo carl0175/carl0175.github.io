@@ -1,7 +1,14 @@
 /* this is a css comment */
 body {
     background-color: rgb(136, 194, 217);
+    background-image: url("../images/output-A10051.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
+}
+
+.navbar {
+    padding: 10px
 }
 
 .navbar a {
