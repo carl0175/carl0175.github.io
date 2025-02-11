@@ -1,5 +1,13 @@
 /* this is a css comment */
-body {
+.p, h2, h3, blockquote {
+    background-color: rgb(234, 201, 159);
+    text-decoration: solid;
+    text-decoration-color: antiquewhite;
+    padding: 2px;
+    opacity: 35%;
+}
+
+.body {
     background-color: rgb(136, 194, 217);
     background-image: url("../images/output-A10051.jpg");
     background-repeat: no-repeat;
