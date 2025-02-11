@@ -8,8 +8,8 @@
 }
 
 p, h2, h3, blockquote {
-    background-color: antiquewhite;
     display: inline;
+    color: rgb(171, 99, 4);
     padding: 2px;
 }
 
