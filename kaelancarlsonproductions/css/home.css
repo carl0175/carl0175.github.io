@@ -1,5 +1,5 @@
 /* this is a css comment */
-.body {
+body {
     background-color: rgb(136, 194, 217);
     background-image: url("../images/output-A10051.jpg");
     background-repeat: no-repeat;
@@ -8,9 +8,13 @@
 }
 
 p, h2, h3, blockquote {
-    display: inline;
-    color: rgb(171, 99, 4);
+    color: rgb(86, 11, 11);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: block;
     padding: 2px;
+    text-shadow:5ch ;
+    text-align: center;
 }
 
 .navbar {
