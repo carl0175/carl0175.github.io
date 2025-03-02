@@ -1,20 +1,43 @@
-.body {
+/* this is a css comment */
+body {
     background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-image {
+    margin: 0%;
+    padding-left: 40px;
+    border:0%
 }
 
 .wrapper {
     background-color: rgb(159, 82, 82);
-    width: 400px;
+    width: 1024px;
     margin: auto;
+    margin-top: 0%;
+}
+
+.loasf img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 25px;
+} 
+
+.loasf p {
+    padding: 15px;
+}
+
+h1 {
+    padding-left: 10px;
 }
 
 nav ul {
-    padding-left: 0px
+    padding-left: 40px;
 }
 
 nav li {
     display: inline-block;
-    padding: 0 10px;
-    margin: auto;
+    padding: 40px;
+    margin-top: 0%;
     height: 100px;
 }
