@@ -1,0 +1,17 @@
+/* this is a css comment */
+.wrapper {
+    background-color: rgb(159, 159, 159);
+    width: 400px;
+    margin: auto;
+}
+
+nav ul {
+    padding-left: 0px
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: auto;
+    height: 100px;
+}
