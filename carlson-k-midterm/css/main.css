@@ -1,6 +1,9 @@
-/* this is a css comment */
+.body {
+    background-color: aquamarine;
+}
+
 .wrapper {
-    background-color: rgb(159, 159, 159);
+    background-color: rgb(159, 82, 82);
     width: 400px;
     margin: auto;
 }
