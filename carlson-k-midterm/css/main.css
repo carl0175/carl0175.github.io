@@ -11,8 +11,11 @@ body {
 }
 
 .form {
-    display: inline-block;
+    display: list-item;
+    border-color: black;
+    border-width: 1px;
 }
+
 .wrapper {
     background-color: rgb(159, 82, 82);
     width: 1024px;
