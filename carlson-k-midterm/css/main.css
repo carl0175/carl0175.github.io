@@ -2,12 +2,14 @@
 body {
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin-top: 0px;
 }
 
-.header-image {
-    margin: 0%;
-    padding-left: 40px;
-    border:0%
+.head-image h1 {
+    position: absolute;
+    top:10%;
+    align-items: center;
 }
 
 .form {
@@ -17,33 +19,74 @@ body {
 }
 
 .wrapper {
+    align-items: flex-start;
     background-color: rgb(159, 82, 82);
     width: 1024px;
+    margin-top: 0px;
     margin: auto;
-    margin-top: 0%;
+    padding-bottom: 50px;
+
 }
 
 .loasf img {
     float: left;
+    padding-left: 5px;
     padding-right: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 } 
 
 .loasf p {
     padding: 15px;
+    font-size: 17px;
 }
 
 h1 {
     padding-left: 10px;
+    font-weight: lighter;
 }
 
-nav ul {
-    padding-left: 40px;
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
 
-nav li {
-    display:inline-flex;
-    padding: 40px;
-    margin-top: 0%;
-    height: 100px;
+.navbar a {
+    font-size: 26px;
+    display:inline;
+    text-decoration: none;
+    color: black;
+    padding:0px 125px;
+    text-align: center;
+    border-right: 1px solid;
+}
+
+button {
+    padding:8px 10px;
+    margin-top: 10px;
+}
+
+.multi-line-textbox {
+    width: 100%;
+}
+
+.long-textbox {
+    width: 100%;
+}
+
+.navbar a:last-child {
+    border-right: none; /* Remove divider from the last item */
+}
+
+.form-1 {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+.bottom-note {
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 50px;
 }
