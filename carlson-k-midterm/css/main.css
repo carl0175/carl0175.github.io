@@ -1,6 +1,6 @@
 /* this is a css comment */
 body {
-    background-color: aquamarine;
+    background-color: #aad4cf;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin-top: 0px;
@@ -8,8 +8,13 @@ body {
 
 .head-image h1 {
     position: absolute;
-    top:10%;
-    align-items: center;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a slight shadow for readability */
 }
 
 .form {
@@ -20,11 +25,12 @@ body {
 
 .wrapper {
     align-items: flex-start;
-    background-color: rgb(159, 82, 82);
+    background-color: #d1e4e2;
     width: 1024px;
     margin-top: 0px;
     margin: auto;
     padding-bottom: 50px;
+    margin-bottom: 20px;
 
 }
 
