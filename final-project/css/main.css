@@ -1,0 +1,130 @@
+ /* font sizes
+ 5rem
+ 3rem
+ 2rem
+ 1.4rem
+ 1rem
+  */
+
+/* imports */
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+    /* reset */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .our-services {
+        background-color: #c78c06;
+    }
+
+/* Mobile Header Layout */
+.mobile-header {
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+  }
+  
+
+  /* Logo area */
+.logo-banner img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+
+ 
+/* Logo Banner */
+.logo-banner {
+    background-color:#c78c06;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 160px;
+  }
+  
+  .logo-banner img {
+    width: auto;
+    height: 100px;
+    float: left;
+  }
+
+  /* Navigation */
+.mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+  }
+  
+  .mobile-nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#c78c06;
+    transition: color 0.3s;
+  }
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 1.5rem;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .search-bar input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    color: #222;
+  }
+  
+  .search-bar input[type="text"]::placeholder {
+    color: #888;
+  }
+  
+  .search-bar button {
+    background-color: #222;
+    border: 1px solid #c78c06;
+    border-radius: 3px;
+    padding: 0.6rem 1rem;
+    color:#c78c06;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-left: 1px solid #c89126;
+  }
