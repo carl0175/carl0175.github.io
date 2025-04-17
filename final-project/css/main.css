@@ -6,13 +6,19 @@
 }
 
 .wrapper {
-  align-items: flex-start;
-  background-color: #ffffff;
-  width: 1024px;
-  margin-top: 0px;
-  margin: auto;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+/* Styles for screens 760px and wider */
+@media (min-width: 760px) {
+  .container {
+    font-size: 16px;
+    background-color: #ffffff;
+  }
 }
 
 
@@ -80,4 +86,27 @@ img {
  .our-team {
   background-color: #c78c06;
   padding: 20px;
+ }
+
+ .contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 95%;
+  margin: 10px;
+ }
+
+ .contact-form button {
+  width: 75px;
+  background-color: #222;
+  color: #c78c06;
+  padding: 15px;
+  margin: 15px;
+ }
+ 
+ .hours-of-operation {
+  border: #222;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;/* Create two columns with the first twice the size of the second */
+  grid-template-rows: 3;
  }
