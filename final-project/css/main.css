@@ -19,19 +19,12 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Styles for screens 760px and wider */
-@media (min-width: 760px) {
+/* Styles for screens 760px and below */
+@media (max-width: 760px) {
   .wrapper {
     font-size: 16px;
     background-color: #ffffff;
   }
-}
-
-
-.nav-header {
-  justify-items: center;
-}
-
 
 img {
   width: 100%;
@@ -40,6 +33,7 @@ img {
 }
 
 .nav-header {
+  justify-items: center;
   background-color: #222;
   margin-top: 0px;
   padding-top: 25px;
@@ -205,3 +199,14 @@ img {
   padding: 30px;
   margin-top: 20px;
  }
+}
+
+ /* Styles for screens 760px and above */
+@media (min-width: 760px) {
+  .wrapper {
+    font-size: 16px;
+    background-color: #ffffff;
+  }
+
+  .nav-header
+}
