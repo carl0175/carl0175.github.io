@@ -21,11 +21,6 @@ body {
 
 /* Styles for screens 760px and below */
 @media (max-width: 760px) {
-  .wrapper {
-    font-size: 16px;
-    background-color: #ffffff;
-  }
-
 img {
   width: 100%;
   height: auto;
@@ -208,5 +203,176 @@ img {
     background-color: #ffffff;
   }
 
-  .nav-header
+  .nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #222;
+    margin-top: 0px;
+    padding-top: 25px;
+  }
+
+ 
+.logo-banner {
+  display: flex;
+  flex-direction: row;
+  background-color: #c78c06;/* mustard yellow */
+  margin-bottom: 10px;
+}
+
+.logo-banner img {
+  width: 75px;
+}
+  
+  .nav-header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #c78c06;
+    padding: 1.6rem
+  }
+
+  .logo-banner li {
+    display: flex;
+    flex-direction: row;
+    color: #222;
+  }
+
+  /* Search Bar */
+.search-bar {
+  display: flex;
+ flex-direction: row;
+  height: 35px;
+  background-color: white;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  color: #222;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #888;
+}
+
+.search-bar button {
+  background-color: #222;
+  border: 1px solid #c78c06;
+  padding: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.welcome {
+  max-width: 1200px;
+  padding: 45px;
+  position: absolute;
+  top: 50%;  /* vertical position */
+  color: white;
+  background: rgba(2, 2, 2, 0.5); /* semi-transparent background */
+}
+
+.welcome button {
+  background-color: #c78c06;
+  color: #222;
+  padding: 35px;
+}
+
+.intro {
+  background-color: #ffe6ac;
+  padding: 20px;
+}
+.o-serv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-services {
+  background-color: #ffe6ac;
+}
+
+.our-services button {
+  background-color: #222;
+  color: #ffffff;
+  padding: 30px;
+ }
+
+ .our-vision {
+  max-width: 1200px;
+  color: white;
+  position: absolute;
+  padding: 25px;
+ }
+
+.our-vision button {
+  margin-top: 20px;
+  background-color: #222;
+  border: 1px solid #c78c06;
+  color: white;
+  padding: 35px;
+  background: rgba(2, 2, 2, 0.5); /* semi-transparent background */
+}
+
+.our-vision-bg {
+  height:275px;
+}
+
+ .our-team {
+  background-color: #ffe6ac;
+  padding: 20px;
+ }
+
+ .contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 95%;
+  margin: 10px;
+ }
+
+ .contact-form button {
+  width: 75px;
+  background-color: #222;
+  color: #c78c06;
+  padding: 15px;
+  margin: 15px;
+ }
+
+ .hours-of-operation {
+  display: grid;
+  grid-template-columns: 2fr 1fr;/* Create two columns with the first twice the size of the second */
+ }
+
+ .hours-of-operation table, th, td {
+  padding: 10px;
+  border: 1px solid #222;
+  border-collapse: collapse; /* ensures borders don’t double up */
+}
+
+.hours-of-operation table th{
+  background-color: #ffe6ac;
+}
+
+ .location iframe {
+  height: 500px;
+  width: 98%;
+ }
+
+ .footer {
+  background-color: #222;
+  color:#c78c06;
+  padding: 30px;
+  margin-top: 20px;
+ }
 }
