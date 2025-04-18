@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -102,11 +108,32 @@ img {
   padding: 15px;
   margin: 15px;
  }
- 
+
  .hours-of-operation {
-  border: #222;
-  width: 95%;
   display: grid;
   grid-template-columns: 2fr 1fr;/* Create two columns with the first twice the size of the second */
-  grid-template-rows: 3;
+
+ }
+
+ .hours-of-operation table, th, td {
+  padding: 10px;
+  border: 1px solid #222;
+  border-collapse: collapse; /* ensures borders don’t double up */
+}
+
+.hours-of-operation table th{
+  background-color: #ffe6ac;
+}
+
+ .location iframe {
+  height: 500px;
+  width: 98%;
+
+ }
+
+ .footer {
+  background-color: #222;
+  color:#c78c06;
+  padding: 30px;
+  margin-top: 20px;
  }
